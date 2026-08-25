@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vengatakrishnan M | CRM Developer</title>
+<meta name="description" content="Vengatakrishnan M — CRM Developer specializing in Salesforce, Zoho, HubSpot, automation and integrations.">
+<style>
+:root{
+  --bg:#07111f; --card:#0d1a2d; --text:#f7f9fc; --muted:#aab7c8;
+  --blue:#26a9e8; --pink:#d61f68; --line:rgba(255,255,255,.1);
+  --white:#fff; --light:#f5f7fb;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{text-decoration:none;color:inherit}
+.container{width:min(1120px,92%);margin:auto}
+nav{position:fixed;top:0;left:0;right:0;z-index:10;background:rgba(7,17,31,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:.5px}.logo span{color:var(--blue)}
+.links{display:flex;gap:28px;color:var(--muted);font-size:14px}.links a:hover{color:#fff}
+.hero{min-height:100vh;display:grid;grid-template-columns:1.15fr .85fr;gap:60px;align-items:center;padding:120px 0 70px}
+.kicker{color:var(--blue);font-weight:800;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+h1{font-size:clamp(46px,7vw,82px);line-height:.98;margin:16px 0}
+h1 span{color:var(--blue)}
+.hero h2{font-size:clamp(20px,3vw,30px);font-weight:500;color:#dce7f5;margin-bottom:20px}
+.hero p{max-width:680px;color:var(--muted);font-size:18px}
+.actions{display:flex;gap:14px;margin-top:30px;flex-wrap:wrap}
+.btn{padding:13px 20px;border-radius:999px;border:1px solid var(--line);font-weight:700}
+.btn.primary{background:var(--blue);color:#06101d;border-color:var(--blue)}
+.btn:hover{transform:translateY(-2px)}
+.photo-wrap{position:relative;display:flex;justify-content:center}
+.photo{width:min(390px,100%);aspect-ratio:4/5;object-fit:cover;border-radius:34px;box-shadow:0 30px 80px rgba(0,0,0,.35);border:1px solid rgba(255,255,255,.12)}
+.badge{position:absolute;right:-5px;bottom:25px;background:#fff;color:#111;padding:15px 18px;border-radius:18px;font-weight:800;box-shadow:0 15px 40px rgba(0,0,0,.25)}
+section{padding:90px 0}
+.section-title{font-size:38px;margin-bottom:12px}.section-sub{color:var(--muted);max-width:720px;margin-bottom:35px}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px}
+.card p{color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+.stat strong{display:block;font-size:26px;color:#fff}.stat span{color:var(--muted);font-size:13px}
+.skills{background:var(--light);color:#101827}
+.skills .section-sub{color:#637083}
+.skill-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skill{background:#fff;border:1px solid #e5e9ef;border-radius:20px;padding:24px;transition:.2s}
+.skill:hover,.project:hover{transform:translateY(-4px)}
+.skill h3{margin-bottom:7px}.skill p{color:#667386;font-size:14px}
+.projects{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.project{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:25px;transition:.2s}
+.tag{display:inline-block;color:var(--blue);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-bottom:12px}
+.project h3{margin-bottom:8px}.project p{color:var(--muted);font-size:14px}
+.certs{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.cert{padding:25px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,#101f34,#0b1626)}
+.cert small{color:var(--blue);font-weight:800}.cert h3{margin-top:8px}
+.contact{background:linear-gradient(135deg,#0c1b30,#111c31)}
+.contact-box{display:flex;justify-content:space-between;align-items:center;gap:30px}
+footer{padding:25px 0;color:#77869a;border-top:1px solid var(--line);font-size:13px}
+@media(max-width:850px){
+ .hero{grid-template-columns:1fr;text-align:center}.hero p{margin:auto}.actions{justify-content:center}
+ .about-grid,.skill-grid,.projects,.certs{grid-template-columns:1fr}
+ .photo{width:310px}.badge{right:5%}.links{display:none}
+ .contact-box{flex-direction:column;text-align:center}
+}
+</style>
+</head>
+<body>
+<nav><div class="container nav">
+  <div class="logo">Vengatakrishnan<span>.</span></div>
+  <div class="links">
+    <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+  </div>
+</div></nav>
+
+<header class="container hero">
+  <div>
+    <div class="kicker">CRM Developer · DigiKAS India Private Limited</div>
+    <h1>Vengatakrishnan <span>M</span></h1>
+    <h2>Salesforce · Zoho · HubSpot · Automation</h2>
+    <p>I build scalable CRM solutions, business applications and automated workflows that simplify processes and create measurable business impact.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">View My Work</a>
+      <a class="btn" href="#contact">Let's Connect</a>
+    </div>
+  </div>
+  <div class="photo-wrap">
+    <img class="photo" src="assets/profile.png" alt="Vengatakrishnan M">
+    <div class="badge">CRM • Automation • Integration</div>
+  </div>
+</header>
+
+<section id="about">
+<div class="container">
+  <div class="kicker">About Me</div><h2 class="section-title">Turning business requirements into technology.</h2>
+  <div class="about-grid">
+    <div class="card"><p>I am a CRM Developer at DigiKAS India Private Limited with hands-on experience across Salesforce, Zoho and HubSpot. My work focuses on CRM development, application customization, workflow automation, integrations, reporting and implementation.</p><br>
+    <p>I have contributed to real-time Salesforce and Zoho projects, working across requirement understanding, development, testing, documentation and deployment.</p></div>
+    <div class="stats">
+      <div class="card stat"><strong>Salesforce</strong><span>CRM & automation</span></div>
+      <div class="card stat"><strong>Zoho</strong><span>Creator, CRM & Projects</span></div>
+      <div class="card stat"><strong>HubSpot</strong><span>Sales & Service Hub</span></div>
+      <div class="card stat"><strong>Automation</strong><span>Workflows & integrations</span></div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="skills" class="skills">
+<div class="container">
+  <div class="kicker">Technical Expertise</div><h2 class="section-title">What I work with</h2>
+  <p class="section-sub">A practical technology stack focused on CRM development, automation, integrations and cloud business applications.</p>
+  <div class="skill-grid">
+    <div class="skill"><h3>Salesforce</h3><p>Sales Cloud, Service Cloud, Web-to-Lead, CRM automation, Reports & Dashboards, data management and deployment.</p></div>
+    <div class="skill"><h3>Zoho Ecosystem</h3><p>Zoho CRM, Creator, Projects, Zoho One, Deluge scripting, workflows, custom applications and automation.</p></div>
+    <div class="skill"><h3>HubSpot</h3><p>Sales Hub and Service Hub with practical CRM and business process understanding.</p></div>
+    <div class="skill"><h3>CRM Development</h3><p>Configuration, customization, validation, workflows, forms, reports and user-focused solutions.</p></div>
+    <div class="skill"><h3>Automation</h3><p>Workflow automation, notifications, approvals, custom functions and process improvement.</p></div>
+    <div class="skill"><h3>Integrations</h3><p>Connecting business applications and synchronizing data to reduce manual work.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+  <div class="kicker">Real-Time Work</div><h2 class="section-title">Projects & Experience</h2>
+  <p class="section-sub">Selected areas where I have applied CRM, automation and business application skills.</p>
+  <div class="projects">
+    <div class="project"><span class="tag">Salesforce</span><h3>Real Estate CRM</h3><p>CRM implementation covering lead management, Web-to-Lead, sales processes, site visits, payment integration requirements, reports and dashboards.</p></div>
+    <div class="project"><span class="tag">Zoho Creator</span><h3>Business Applications</h3><p>Custom application development using forms, Deluge, workflows and integrations to move manual processes into structured digital workflows.</p></div>
+    <div class="project"><span class="tag">Zoho Projects</span><h3>Project Workflows</h3><p>Project and task management setup with structured workflows and process tracking for business teams.</p></div>
+  </div>
+</div>
+</section>
+
+<section id="certifications">
+<div class="container">
+  <div class="kicker">Certifications</div><h2 class="section-title">Credentials that strengthen my practice.</h2>
+  <div class="certs">
+    <div class="cert"><small>ZOH0</small><h3>Zoho Creator Developer</h3><p>Associate Certified</p></div>
+    <div class="cert"><small>SALESFORCE</small><h3>Agentforce Specialist</h3><p>Salesforce Certified</p></div>
+    <div class="cert"><small>HUBSPOT</small><h3>Sales & Service Hub</h3><p>Software Certified</p></div>
+  </div>
+</div>
+</section>
+
+<section id="contact" class="contact">
+<div class="container contact-box">
+  <div><div class="kicker">Let's Connect</div><h2 class="section-title">Have a CRM challenge?</h2><p class="section-sub">Let's build a smarter, more automated solution.</p></div>
+  <div class="actions">
+    <a class="btn primary" href="mailto:vengatakrishnan@digikas.in">Email Me</a>
+    <a class="btn" href="https://www.linkedin.com/in/vengatakrishnan-m/" target="_blank">LinkedIn</a>
+  </div>
+</div>
+</section>
+
+<footer><div class="container">© 2026 Vengatakrishnan M · CRM Developer · DigiKAS India Private Limited</div></footer>
+</body>
+</html>
